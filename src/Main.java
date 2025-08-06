@@ -21,6 +21,8 @@ public class Main {
         animalUtils.addAnimal(a);
         a.sleep();
         Cat cat=new Cat("billi");
+        Dog dog=new Dog("Tommy");
         animalUtils.addAnimal(cat);
+        animalUtils.addAnimal(dog);
     }
 }
