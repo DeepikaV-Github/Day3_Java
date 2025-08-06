@@ -27,6 +27,10 @@ public class Main {
         animalUtils.addAnimal(cat);
         animalUtils.addAnimal(dog);
 
+        Bird parrot=new Parrot("Puttu Parrot");
+        parrot.fly();
+        Bird Os=new Ostrich("oval Ostrich");
+        Os.fly();
 
     }
 }

@@ -7,18 +7,9 @@ public class Bat extends Animal{
         super(name);
     }
 
-//    @Override
-//    public void eat() {
-//        System.out.println(getName()+ " is eating");
-//    }
-
     @Override
     public void makeNoise() {
         System.out.println(getName()+ " is making noise");
     }
 
-//    @Override
-//    public void roam() {
-//        System.out.println(getName()+ " is roaming");
-//    }
 }
